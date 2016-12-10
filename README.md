@@ -66,3 +66,10 @@ Output from the base end-point, `http://10.0.0.10/cgi-bin/json.cgi`. _(Shown pre
 ## Contributing
 
 If you'd like to contribute to the development of kankun-json, please review the [guidelines for contributing](https://github.com/homedash/kankun-json/blob/master/CONTRIBUTING.md).
+
+
+
+## Inside firewall
+
+1. Edit the `switches.json` file to use the real IP address (public internet address)
+2. Edit the `www/cgi-bin/json.cgi` file, set IP_ADDRESS=real IP address
